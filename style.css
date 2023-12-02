@@ -15,6 +15,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow: visible;
 }
 
 *::selection {
@@ -86,6 +87,7 @@ video {
     position: relative;
     background-color: rgba(0, 0, 0, 0.39);
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
 }
 
 #page1 {
@@ -507,10 +509,7 @@ video {
     }
 } */
 @media (max-width: 600px) {
-    body{
-        height: 100vh;
-        width: 100vw;
-    }
+   
     #nav{
         padding: 40px;
         font-size: 2rem;
